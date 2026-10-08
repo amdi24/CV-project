@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Hana Bekele",
+    "department": "Cardiology",
+    "specialization": "Heart and cardiovascular care",
+    "experience": 4,
+    "location": "CampusCare Main Clinic",
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "bio": "Provides consultation and follow-up care for common cardiovascular conditions."
+  },
+  {
+    "id": "2",
+    "name": "Dr. Daniel Tesfaye",
+    "department": "Dermatology",
+    "specialization": "Skin, hair and nail care",
+    "experience": 2,
+    "location": "CampusCare Main Clinic",
+    "availableDays": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "bio": "Provides assessment and treatment planning for common skin conditions."
+  },
+  {
+    "id": "3",
+    "name": "Dr. Meron Alemu",
+    "department": "Pediatrics",
+    "specialization": "Child health",
+    "experience": 1,
+    "location": "CampusCare Children's Clinic",
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "bio": "Provides routine child health consultations and follow-up care."
+  },
+  {
+    "id": "4",
+    "name": "Dr. Samuel Girma",
+    "department": "General Medicine",
+    "specialization": "Primary care",
+    "experience": 2,
+    "location": "CampusCare Main Clinic",
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "bio": "Provides general medical consultation and primary care."
+  },
+  {
+    "id": "5",
+    "name": "Dr. Rahel Yohannes",
+    "department": "Neurology",
+    "specialization": "Neurological care",
+    "experience": 3,
+    "location": "CampusCare Main Clinic",
+    "availableDays": [
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "bio": "Provides neurological consultation and follow-up care."
+  }
+]

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">&lt;AR /&gt;</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="hamburger" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <section id="home" class="homestyle">
+            <h1>Hello, I'm Amdebrhan</h1>
+
+            <h2>Computer Science Student & Software Developer</h2>
+
+            <p>
+                I am a Computer Science student interested in
+                software development, web development, and technology.
+            </p>
+           <div class="button">
+    
+            <a href="#projects" class="stayle-hove">View My Projects</a> 
+            <a href="#contact" class="stayle-hover">Contact Me</a>
+         </div>
+        </section>
+<section id="about">
+    <div class="section-content">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science student passionate about
+            software development and web technologies.
+            I enjoy learning new technologies and building
+            practical projects that solve real problems.
+        </p>
+
+        <p>
+            My goal is to become a strong software developer
+            and continue improving my programming and problem-solving skills.
+        </p>
+    </div>
+</section>
+
+
+<section id="skills">
+    <div class="all-skills">
+
+                <div class="skill-card">
+                    <img src="images/html.jpg" alt="HTML">
+                    <p>HTML</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/css.jpg" alt="CSS">
+                    <p>CSS</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/java-script.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/react.png" alt="React">
+                    <p>React</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/node-js.png" alt="Node.js">
+                    <p>Node.js</p>
+                </div>
+
+            </div>
+</section>
+
+
+<section id="contact">
+    <div class="section-content">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            If you would like to work with me or discuss a project,
+            feel free to contact me.
+        </p>
+
+        <form id="contact-form">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+            <small id="phoneError"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message"></textarea>
+            </div>
+            <p id="form-message"></p>
+            <button type="submit" class="massage">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+
+   <footer>
+    <p>&copy; 2026 Abdurrahman. All rights reserved.</p>
+
+    <div>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

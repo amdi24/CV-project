@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "CampusCare",
+        "category": "React",
+        "description": "A student clinic and doctor appointment application.",
+        "technologies": ["React", "JavaScript", "CSS"],
+        "github": "#",
+        "image": "./images/project1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Addis Eats",
+        "category": "React",
+        "description": "A food ordering application where users can browse dishes and manage orders.",
+        "technologies": ["React", "JavaScript", "Next.js"],
+    
+        "github": "#",
+        "image": "./images/project2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gebeta Game",
+        "category": "Java",
+        "description": "A traditional Ethiopian board game developed using Java.",
+        "technologies": ["Java", "OOP"],
+        "github": "# ",
+    "image": "./images/project3.jpg"
+    }
+]
