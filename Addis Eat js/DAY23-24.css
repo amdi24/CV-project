@@ -1,0 +1,53 @@
+main {
+display: grid;
+grid-template-columns: 1fr; /* mobile */
+gap: 1rem;
+}
+/* it is for control the wab style in deferant material automatica;y */
+#menu {
+display: grid;
+grid-template-columns:
+repeat(auto-fill, minmax(180px, 1fr));
+gap: 1rem;
+}
+@media (min-width: 800px) {/* this is responsive Design for screens */
+main { grid-template-columns: 2fr 1fr; } /* it splite screen */ 
+}
+:root {/* it is give stayle for variable */
+--green: #2E8B57; 
+--ink: #1A2433;
+--line: #E2E8F0; 
+--radius: 10px;
+}
+.dish {/* for individual dish give stayle*/
+border: 1px solid var(--line);
+border-radius: var(--radius);
+padding: 1rem;
+background-color: aliceblue;
+}
+.dish h3 { 
+    color: var(--ink);
+     margin: 0; }
+.price {
+     color: var(--green); 
+     font-weight: 700; }
+
+.dish img.dish-img {
+    width: 100%;       
+    height: 160px;    
+    object-fit: cover; 
+    border-radius: 6px;
+}
+footer {
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+    border-top: 1px solid #ddd;
+    color: #000556;
+}
+
+.error {
+    color: #e53e3e; /* Bright red color for errors */
+    font-weight: 600;
+    margin: 0.5rem 0;
+}

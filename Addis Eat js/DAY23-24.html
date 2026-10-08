@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addis Eats </title>
+    <link rel="stylesheet" href="DAY23-24.css">
+</head>
+<body>
+  <header>
+      <h1>Addis Eats </h1>
+      <input id="search" placeholder=" Search dishes">
+  </header>
+  <main>
+    <!--this menu section fill by js letar-->
+    <!--and this show oure project is dynamic-->
+    <section id="menu" aria-label="Menu"></section>
+  <!--hear we crate a container fo cart this store the shopping cart state-->
+  <!--example in js it store const state ={dishes :[ ], cart [ ], search: " " hear the cart is store in the js}-->
+    <aside id="cart" aria-label="your order"></aside>
+
+  </main>
+
+
+
+  <!--second parte of oure project-->
+
+  <form id="check">
+    <h3>Check</h3>
+    <label>Name
+        <input id="name" required spellcheck="false"/><!--this (required spellcheck="false") is for assebt the user name with oute errar-->
+    </label>
+    <br>
+    <br>
+    <label>Phone
+        <input id="phone" placeholder="0-000-0000" />
+    </label>
+    <br>
+    <br>
+    <label>Delivery area
+        <select id="area">
+            <option>Bole</option>
+            <option>Kazanchis</option>
+            <option>Megenagna</option>
+        </select>
+    </label>
+    <p id="error" class="error" ></p>
+    <button type="submit">Order</button>
+</form>
+  <footer>
+    <p>Bole,Addis Ababa · TeleBirr</p>
+
+  </footer>
+  <script src="DAY23-24.js"></script>
+</body>
+</html>

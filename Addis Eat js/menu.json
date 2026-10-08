@@ -1,0 +1,74 @@
+[
+{
+"id": 1,
+"name": "Doro Wat",
+"description":"Traditional spicy Doro Wat",
+"category": "Main",
+"price": 240, 
+"spicy": true,
+"image": "Easy Doro Wet.jpg"
+},
+{ "id": 2, 
+"name": "Shiro",
+"description":"this is ...",
+"category":"Main",
+"price": 120,
+"spicy": true,
+"image": "shero.jpg"
+
+} , 
+
+{
+"id": 3,
+"name": "Kitfo",
+"description": "Minced lean beef seasoned with mitmita and clarified butter",
+"category": "Main",
+"price": 320,
+"spicy": true,
+"image": "kitfo.jpg"
+    },
+
+{
+"id": 4,
+"name": "Beyaynetu",
+"description": "A vibrant assortment of vegetarian stews served over injera",
+"category": "Vegetarian",
+"price": 160,
+"spicy": false,
+"image": "beya.jpg"
+
+    },
+
+{
+"id": 5,
+"name": "Injera",
+"description": "Ethiopian Takeaway With Buoyant Injera",
+"category": "Injera",
+"price": 16,
+"spicy": false,
+"image": "Injera.jpg"
+
+    },
+
+{
+"id": 6,
+"name": "spa",
+"description": "Ethiopian Takeaway With Buoyant spa",
+"category": "spa",
+"price": 168,
+"spicy": false,
+"image": "spa.jpg"
+
+    },
+
+{
+"id": 6,
+"name": "Green Coffee Beans",
+"description": "Green Coffee Beans",
+"category": "spa",
+"price": 143,
+"spicy": false,
+"image": "Coffee.jpg"
+
+    }
+]
